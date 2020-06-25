@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    align-content: center;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 70%;
+}
+#menu ul{
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    list-style-type: none;
+}
+#menu li{
+    align-self: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+p{
+    color: white;
+    margin: 1em 3em;
+    font-size: 6em;
+    align-self: center;
+}

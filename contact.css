@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    align-content: center;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+#menu ul{
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    list-style-type: none;
+}
+#menu li{
+    align-self: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+p{
+    color: white;
+    margin: 1em 3em;
+    font-size: 6em;
+}
+#icons ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3em;
+}
+#icons li{
+    align-self: center;
+}
+#ig{
+    width:60px;
+}
+#tw{
+    width:70px;
+}
+#yt{
+    width:60px;
+}
+#fb{
+    width:35px;
+}
+a:hover{
+    opacity: 70%;
+}
